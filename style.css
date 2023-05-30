@@ -1,0 +1,281 @@
+body {
+    background-color: black; 
+}
+.website {
+    width: 1440px;
+	margin: 0 auto;
+    position: relative;
+    background-color: black;    
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1440px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+}
+
+.header-button {
+    padding: 30px;
+    z-index: 2;
+}
+
+.apple {
+    margin-left: 10px;
+    -webkit-text-stroke: 1px black;
+    font-family: 'yagiza';
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    outline: none;
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow: 
+        5px 0px 0px #5B007B,
+        6px 0px 0px #000000;
+    transition: .2s;
+}
+
+.apple:active {
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow:
+        10px 0px 0px #5B007B, 
+        11px 0px 0px #000000;
+    transform: translate(0, 4px);
+}
+
+
+.spotify {
+    margin-left: 10px;
+    -webkit-text-stroke: 1px black;
+    font-family: 'yagiza';
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    outline: none;
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow: 
+        5px 0px 0px #5B007B,
+        6px 0px 0px #000000;
+    transition: .2s;
+}
+
+.spotify:active {
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow:
+        10px 0px 0px #5B007B, 
+        11px 0px 0px #000000;
+    transform: translate(0, 4px);
+}
+
+
+.sc {
+    -webkit-text-stroke: 1px black;
+    font-family: 'yagiza';
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    outline: none;
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow: 
+        5px 0px 0px #5B007B,
+        6px 0px 0px #000000;
+    transition: .2s;
+}
+
+.sc:active {
+    background: rgb(0, 0, 0) linear-gradient(#5B007B, #BD00FF 80%);
+    box-shadow:
+        10px 0px 0px #5B007B, 
+        11px 0px 0px #000000;
+    transform: translate(0, 4px);
+}
+
+.logo {
+    position: relative;
+    font-family: 'yagiza';
+    color: rgba(189, 0, 255, 0.77);
+    font-size: 32px;
+    padding: 50px;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+}
+
+#bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: blur(2.5px);
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.main-section {
+    min-height: 80vh;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    z-index: 2;
+}
+
+.text2 {
+    color: #AD00FF;
+    font-size: 32px;
+    font-family: Wish Shore;
+}
+
+.text1 {
+    font-family: Planet Kosmos;
+    font-size: 32px;
+    color: #AD00FF;
+}
+
+.right-section {
+    position: relative;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    background: url(frame.svg);
+    width: 693px;
+    height: 697px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-form {
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 20%;
+    font-size: 60px;
+    font-family: Wish Shore;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: Wish Shore;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    width: 400px;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 25%;
+    position: relative;
+}
+
+.input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 25%;
+    padding-right: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+input {
+    border-radius: 50px;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    padding-left: 16%;
+}
+
+button {
+    position: relative;
+    width: 215px;
+    height: 89px;
+    border-radius: 50px;
+}
+
+span {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: Wish Shore;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.ugly {
+    position: relative;
+    width: 50%;
+    align-items: center;
+    padding-left: 50%;
+}
+
+.footer {
+    background-color: rgba(27, 27, 27, 0.92);
+    z-index: 2;
+    position: relative;
+    margin: 0%;
+}
+
+.footer-text {
+    font-family: Wish Shore;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'yagiza';
+    src: url('fonts/yagiza.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
