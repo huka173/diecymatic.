@@ -278,4 +278,13 @@ span {
     font-weight: normal;
 }
 
+@font-face {
+	font-family: Planet Kosmos;
+	src: url('fonts/PlanetKosmos.woff2') format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
 
